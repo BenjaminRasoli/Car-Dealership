@@ -7,10 +7,7 @@
   scroll-behavior: smooth;
 }
 
-.socialmedia {
-  justify-content: flex-end;
-  display: flex;
-}
+
 
 .container {
   position: relative;
@@ -46,7 +43,7 @@ video {
 
 .iamgetext {
   position: absolute;
-  top: 100px;
+  top: 10px;
   left: 20px;
   z-index: 1;
   font-size: 40px;
