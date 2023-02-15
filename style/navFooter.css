@@ -1,4 +1,4 @@
-.mainnav1 ul {
+.navcontainer ul {
   list-style-type: none;
   background: #192332;
   height: 100px;
@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.mainnav1 {
+.navcontainer {
   top: 0;
   position: fixed;
   z-index: 1;
@@ -35,7 +35,7 @@ li a:hover {
 }
 
 @media screen and (max-width: 573px) {
-  .mainnav1 ul {
+  .navcontainer ul {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -71,12 +71,12 @@ li a:hover {
     flex-direction: column;
   }
 
-  .textfooter {
+  .mainfooter {
     flex-direction: column;
   }
 }
 
-.mellantextfooter {
+.phonefooter {
   height: 200px;
   background-color: #121a25;
   display: flex;
@@ -86,17 +86,17 @@ li a:hover {
   gap: 20px;
 }
 
-.mellantextfootertext {
+.phonefootertext {
   color: white;
   font-size: 20px;
   display: flex;
 }
 
-.mellantextfooter a {
+.phonefooter a {
   text-decoration: none;
 }
 
-.mellantextfooter p {
+.phonefooter p {
   width: 400px;
   display: flex;
   justify-content: center;
@@ -104,36 +104,36 @@ li a:hover {
   height: 60px;
 }
 
-.mellantextfooternummer {
+.phonefooternumber {
   color: white;
   border: white 1px solid;
 
   font-size: 20px;
 }
 
-.mellantextfooternummer i {
+.phonefooternumber i {
   padding: 15px;
 }
 
 @media screen and (max-width: 470px) {
-  .mellantextfooter p{
-  width: 200px;
+  .phonefooter p {
+    width: 200px;
   }
 }
 
-.mellantextfooter p:hover {
+.phonefooter p:hover {
   opacity: 0.3;
 }
 
-.carlogoonfooter {
+.logofooter {
   height: 80px;
 }
 
-.carlogoonfooter:hover {
+.logofooter:hover {
   opacity: 0.2;
 }
 
-.textfooter {
+.mainfooter {
   color: white;
   display: flex;
   justify-content: center;
@@ -146,17 +146,17 @@ li a:hover {
   background-color: #192332;
 }
 
-.textfooter1 {
+.textfooter {
   flex-direction: column;
   display: flex;
 }
 
-.textfooter1 a {
+.textfooter a {
   padding-top: 15px;
   text-decoration: none;
   color: white;
 }
 
-.textfooter1 a:hover {
+.textfooter a:hover {
   color: #838890;
 }

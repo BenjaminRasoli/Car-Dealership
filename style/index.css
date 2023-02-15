@@ -12,11 +12,6 @@
   z-index: 0;
 }
 
-.container1 {
-  position: relative;
-  z-index: 0;
-}
-
 video {
   width: 100%;
   display: block;
@@ -35,7 +30,7 @@ video {
   margin-top: 100px;
 }
 
-.mainbild1 {
+.topimage {
   width: 100%;
   height: auto;
   display: block;
@@ -190,7 +185,7 @@ video {
   color: rgb(255, 255, 255);
 }
 
-.informationunderiamge {
+.maintext {
   width: 100%;
   background-color: #192332;
   text-align: center;
@@ -198,7 +193,7 @@ video {
   padding-bottom: 80px;
 }
 
-.textunderimage {
+.secondtext {
   padding-top: 40px;
   color: white;
 }
@@ -218,22 +213,22 @@ video {
   align-items: center;
 }
 
-.kontakttext {
+.contacttext {
   margin: auto;
   width: 50%;
   padding-top: 20px;
   margin-top: 20px;
 }
 
-.kontakttext p {
+.contacttext p {
   line-height: 1.5;
 }
 
-.kontakttext h2 {
+.contacttext h2 {
   padding-top: 70px;
 }
 
-.kontaktbild {
+.contactimage {
   display: flex;
   justify-content: center;
 }
@@ -281,12 +276,12 @@ video {
   }
 }
 
-.textunderheader {
+.choosetext {
   text-align: center;
   margin-top: 60px;
 }
 
-.textunderheader1 {
+.choosetext1 {
   text-align: center;
   margin-top: 20px;
 }
@@ -348,12 +343,10 @@ video {
   font-size: 20px;
   padding: 10px;
   line-height: 2.5;
-  
 }
 
 .biltext2 i {
-padding: 8px;
-  
+  padding: 8px;
 }
 
 .biltext ul {
@@ -365,8 +358,6 @@ padding: 8px;
   margin-bottom: 20px;
 }
 
-
-
 .biltextnummer {
   background-color: #5f5f5f;
   display: flex;
@@ -374,16 +365,16 @@ padding: 8px;
   align-items: center;
   margin: 20px;
   height: 45px;
-  
+
   border-radius: 4px;
   color: white;
 }
 
-.biltextnummer1 a {
+.bilnummer a {
   text-decoration: none;
 }
 
-.biltextnummer1 {
+.bilnummer {
   text-decoration: none;
 }
 
@@ -401,6 +392,3 @@ padding: 8px;
 iframe {
   display: block;
 }
-
-
-
