@@ -12,6 +12,11 @@
   z-index: 0;
 }
 
+.container1 {
+  position: relative;
+  z-index: 0;
+}
+
 video {
   width: 100%;
   display: block;
@@ -25,35 +30,66 @@ video {
 
 .mainbild {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: none;
   margin-top: 100px;
 }
 
 .mainbild1 {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
   margin-top: 100px;
 }
 
 .iamgetext1 {
   position: absolute;
-  justify-content: center;
   top: 0px;
   font-size: 40px;
   height: 100%;
-  width: 80%;
+  width: 50%;
   display: flex;
   align-items: center;
   background-image: linear-gradient(45deg, #283c4b, #192332);
-  clip-path: polygon(0% 0, 100% 0%, 50% 100%, 0 150%);
+  clip-path: polygon(0 0%, 100% 0, 30% 100%, 0 100%);
+}
+
+.öpettider {
+  margin: auto;
+  width: 50%;
+  line-height: 2.5;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1250px) {
+  .iamgetext1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .iamgetext1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .iamgetext1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .iamgetext1 {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 950px) {
   video {
     display: none;
   }
+
   .mainbild {
     display: block;
   }
@@ -182,11 +218,24 @@ video {
   align-items: center;
 }
 
-.kontakttext{
-margin: auto;
-width: 50%;
-padding-top: 20px;
-margin-top: 20px;
+.kontakttext {
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.kontakttext p {
+  line-height: 1.5;
+}
+
+.kontakttext h2 {
+  padding-top: 70px;
+}
+
+.kontaktbild {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 490px) {
@@ -295,6 +344,18 @@ margin-top: 20px;
   margin-left: 25px;
 }
 
+.biltext2 {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 2.5;
+  
+}
+
+.biltext2 i {
+padding: 8px;
+  
+}
+
 .biltext ul {
   font-size: 20px;
 }
@@ -304,6 +365,8 @@ margin-top: 20px;
   margin-bottom: 20px;
 }
 
+
+
 .biltextnummer {
   background-color: #5f5f5f;
   display: flex;
@@ -311,8 +374,17 @@ margin-top: 20px;
   align-items: center;
   margin: 20px;
   height: 45px;
+  
   border-radius: 4px;
   color: white;
+}
+
+.biltextnummer1 a {
+  text-decoration: none;
+}
+
+.biltextnummer1 {
+  text-decoration: none;
 }
 
 .biltextnummer:hover {
@@ -325,3 +397,10 @@ margin-top: 20px;
   font-size: 16px;
   transition-delay: 20s;
 }
+
+iframe {
+  display: block;
+}
+
+
+
