@@ -20,6 +20,10 @@
   display: flex;
 }
 
+.mainnav :hover {
+  opacity: 0.4;
+}
+
 .socialmedia {
   display: flex;
 }
@@ -27,15 +31,38 @@
 li a {
   text-decoration: none;
   color: white;
-  padding: 19px 16px;
+  margin: 0 16px;
 }
 
-li a:hover {
-  color: grey;
+.facebook:hover {
+  color: #4267b2;
+}
+
+.github:hover {
+  color: #7c7ea3;
+}
+
+.instagram {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram:hover {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .mainlogo:hover {
- opacity: 0.4;
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 573px) {
