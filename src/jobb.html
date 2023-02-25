@@ -6,13 +6,15 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../style/index.css" />
-    <link rel="stylesheet" href="../style/navFooter.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jobb</title>
   </head>
   <body>
+    <div class="loadercontainer">
+      <div class="loader" id="loader"></div>
+    </div>
     <div class="navcontainer">
       <ul>
         <div class="mainnav">
@@ -78,11 +80,9 @@
       <div class="card">
         <img class="carimage" src="../images/main/4per.jpg" alt="4 personer" />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5><b>Transportbilssäljare Nya Mercedes Vans</b></h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i> Malmö</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i> Malmö</p>
         </div>
       </div>
 
@@ -93,14 +93,11 @@
           alt="person hjälper"
         />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5><b>Bildelsrådgivare</b></h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i>Göteborg</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i>Göteborg</p>
         </div>
       </div>
-
       <div class="card">
         <img
           class="carimage"
@@ -108,11 +105,9 @@
           alt="fixar bil"
         />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5><b>Personlig Servicetekniker </b></h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i>Stockholm</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i>Stockholm</p>
         </div>
       </div>
 
@@ -120,16 +115,14 @@
         <img
           class="carimage"
           src="../images/main/hjälpbil.jpg"
-          alt="Lperson hjälper"
+          alt="person hjälper"
         />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5>
             <b>Service- och reservdelsrådgivare </b>
           </h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i>Södertälje</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i>Södertälje</p>
         </div>
       </div>
 
@@ -140,27 +133,23 @@
           alt="fixar bil"
         />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5><b>Innesäljare EBD </b></h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i>Segeltorp</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i>Segeltorp</p>
         </div>
       </div>
 
       <div class="card">
         <img class="carimage" src="../images/main/4per.jpg" alt="4 personer" />
 
-        <div class="biltext2">
+        <div class="jobbtext">
           <h5><b>Bilrekonditionerare</b></h5>
-          <div class="biltext21">
-            <p><i class="fa-solid fa-map-location-dot"></i>Stockholm</p>
-          </div>
+          <p><i class="fa-solid fa-map-location-dot"></i>Stockholm</p>
         </div>
       </div>
     </div>
 
-    <h1 class="jobbtext">
+    <h1 class="kontakttext">
       <b
         >Intresserad? <br />
         Kontakta Gärna oss</b
@@ -179,7 +168,7 @@
 
       <div class="textfooter">
         <a href="volvo.html">Volvo hos Topp Bil</a>
-        <a href="bmw.html">BWM hos Topp Bill</a>
+        <a href="bmw.html">BMW hos Topp Bill</a>
         <a href="alpine.html">Alpine hos Topp Bil</a>
         <a href="mercedes.html">Mercedes hos Topp Bil</a>
         <a href="porsche.html">Porsche hos Topp Bil</a>
@@ -189,7 +178,7 @@
       <div class="textfooter">
         <a href="">Stockholm bildemontering </a>
         <a href="">Ecris </a>
-        <a href="">Citydäck Öresund </a>
+        <a href="">Däck </a>
         <a href="">Genuine Classic Parts </a>
         <a href="">EBDS </a>
         <a href="">CBED </a>
@@ -242,5 +231,6 @@
           alt="lexus logo"
       /></a>
     </div>
+    <script src="../script/loader.js"></script>
   </body>
 </html>

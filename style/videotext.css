@@ -1,0 +1,65 @@
+.firsthalf {
+    color: white;
+  }
+  
+  .secondhalf {
+    color: #4d4e4d;
+  }
+  
+  .bmwfirsthalf {
+    color: white;
+  }
+  
+  .bmwsecondhalf {
+    color: rgb(118, 167, 204);
+  }
+  
+  .alpinefirsthalf {
+    color: white;
+  }
+  
+  .alpinesecondhalf {
+    color: #7297c0;
+  }
+  
+  .lexusfirsthalf {
+    color: rgb(255, 255, 255);
+  }
+  
+  .lexussecondhalf {
+    color: #1b2b39;
+  }
+  
+  .mercedesfirsthalf {
+    color: white;
+  }
+  
+  .mercedessecondhalf {
+    color: #635430;
+  }
+  
+  .porschefirsthalf {
+    color: rgb(255, 255, 255);
+  }
+  
+  .porschesecondhalf {
+    color: #686b76;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .porschefirsthalf {
+      color: black;
+    }
+  }
+  
+  .volvofirsthalf {
+    color: white;
+  }
+  
+  .volvosecondhalf {
+    color: #7188a2;
+  }
+  
+  .kontaktfirsthalf {
+    color:white;
+  }
