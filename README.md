@@ -1,4 +1,4 @@
 # Car-Dealership 
-## Preview website at: <a href="[https://topbil.netlify.app/index.html](https://benjaminrasoli.github.io/Car-Dealership/src/)">  https://topbil.netlify.app/index.html</a>
+## Preview website at: <a href="https://benjaminrasoli.github.io/Car-Dealership/src/">  https://topbil.netlify.app/index.html</a>
 ___
- <a href="[https://topbil.netlify.app/index.html](https://benjaminrasoli.github.io/Car-Dealership/src/)"> <img src="https://i.ibb.co/wrrFYFd/topp-bil-1-icon.png" /></a>
+ <a href="https://benjaminrasoli.github.io/Car-Dealership/src/"> <img src="https://i.ibb.co/wrrFYFd/topp-bil-1-icon.png" /></a>
